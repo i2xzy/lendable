@@ -4,7 +4,7 @@
 
 A small interactive form with two sliders similar to the one implemented on the [www.lendable.co.uk](https://www.lendable.co.uk/) homepage.
 
-#### Must-haves
+### Must-haves
 
 - Implement two sliders, of which the first one should be free range (allowing values within `1000` and `20000`) and the second one should snap to multiples of 6 (between `12` and `60` months)
 - The first slider should have a label indicating its value as currency
@@ -22,7 +22,7 @@ A small interactive form with two sliders similar to the one implemented on the 
 
 - The value displayed in the monthly repayment must be calculated on the fly considering the total amount borrowed including the APR interest rate, divided by the repayment term months.
 
-#### Nice to have
+### Nice to have
 
 - Styling the form using whichever styles/colour schemes/fonts are desired
 - Unit tests for the components/modules implemented (e.g. using Jest + Enzyme)
@@ -39,7 +39,7 @@ A small interactive form with two sliders similar to the one implemented on the 
 
 To install:
 
-```
+```shell
 git clone git@github.com:i2xzy/lendable.git
 cd lendable
 npm i
@@ -47,12 +47,12 @@ npm i
 
 To run:
 
-```
+```shell
 npm start
 ```
 
 To test:
 
-```
+```shell
 npm test
 ```
